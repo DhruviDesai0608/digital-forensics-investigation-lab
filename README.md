@@ -328,7 +328,8 @@ Digital Forensics Investigation Lab/
 ├── yara-rule.md                 ← Custom detection rule and documentation
 │
 ├── report/
-│   └── LAB-2024-001_DFIR_Report.docx   ← Formal investigation report
+│   ├── LAB-2024-001_DFIR_Report.docx   ← Formal investigation report
+│   └── LAB-2024-001_DFIR_Report.pdf   ← Formal investigation report in PDF 
 │
 ├── evidence/
 │   └── README.md                ← Evidence inventory and hash records
@@ -367,4 +368,5 @@ This project was conducted for educational purposes using publicly available for
 
 ---
 
-*Analyst: Dhruvi Desai | Case: LAB-2024-001 | Completed: May 2026*
+*Analyst: Dhruvi Desai | Case: LAB-2024-001 | Completed: May 2026*
+
