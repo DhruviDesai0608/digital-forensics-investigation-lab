@@ -111,8 +111,8 @@ All adaptations made during the investigation have been documented transparently
 | Phase | Screenshot | Description |
 |---------|---------|-------------|
 | 🖥️ Lab Setup | ![REMnux VM](screenshots/01_lab-setup/LAB001_REMnux_VM_Configuration.png) | REMnux forensic workstation configured with isolated VMnet2 networking for secure malware analysis and evidence processing. |
-| 🖥️ Lab Setup | ![Windows 10 Victim](screenshots/01_lab-setup/LAB002_Win10_VM_Configuration.png) | Windows 10 victim machine prepared to simulate user activity and generate forensic artifacts for investigation. |
-| ⚠️ Malware Preparation | ![Malware Extraction](screenshots/08_sample-acquisition/LAB001_Malware_Extraction_Completed.png) | Suspicious AsyncRAT sample extracted in a controlled environment while maintaining an observation log and preserving forensic integrity. |
+| 🖥️ Lab Setup | ![Windows 10 Victim](screenshots/01_lab-setup/LAB001_Win10_VM_Configuration.png) | Windows 10 victim machine prepared to simulate user activity and generate forensic artifacts for investigation. |
+| ⚠️ Malware Preparation | ![Malware Extraction](screenshots/06_dynamic-analysis/LAB001_Malware_Extraction_Completed.png) | Suspicious AsyncRAT sample extracted in a controlled environment while maintaining an observation log and preserving forensic integrity. |
 | 🌐 Network Analysis | ![Wireshark Capture](screenshots/04_network-analysis/LAB001_Wireshark_Live_Capture_Verification.png) | Network monitoring verified using Wireshark to capture traffic generated during malware execution and user activity simulation. |
 | 💾 Disk Forensics | ![Autopsy Analysis](screenshots/03_disk-forensics/LAB003_Autopsy_Deleted_File_Recovery_Evidence.png) | Deleted files and system artifacts recovered using Autopsy to identify user actions and reconstruct system activity. |
 | 🧠 Memory Forensics | ![Volatility Analysis](screenshots/02_memory-forensics/LAB003_Volatility_System_Profile_Identification.png) | Volatility 3 used to identify the Windows memory profile and prepare the memory image for forensic analysis. |
