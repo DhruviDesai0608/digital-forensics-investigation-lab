@@ -55,20 +55,24 @@ Detection focuses on:
 ## 📄 Rule Source Code
 
 ```yara
-// Paste your actual YARA rule here
+//YARA rule
 
-rule LAB001_Detection_Rule
+rule LAB001_Malware_Detection
 {
     meta:
         author = "Dhruvi Desai"
-        description = "Custom detection rule created during DFIR investigation"
         date = "2026-05-29"
+        description = "Demonstration YARA rule created during DFIR lab project"
+        case = "LAB-2024-001"
 
     strings:
-        $str1 = "suspicious_string"
+        $mz = "MZ"
+        $ws1 = "Wireshark"
+        $ws2 = "WiresharkDevelopmentTeam"
 
     condition:
-        $str1
+        uint16(0) == 0x5A4D
+        and any of ($ws*)
 }
 ```
 

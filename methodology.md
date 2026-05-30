@@ -446,7 +446,7 @@ Consolidate and document all observable Indicators of Compromise identified acro
 | Process | `mdd_1.3.exe` (PID 3336) | Memory Forensics |
 
 ### Outcome
-Structured IOC worksheet completed. See [IOC_WORKSHEET.md](IOC_WORKSHEET.md) for full documentation.
+Structured IOC worksheet completed. See [ioc_worksheet.md](ioc_worksheet.md) for full documentation.
 
 ---
 
@@ -481,7 +481,7 @@ Map evidence-supported findings to applicable MITRE ATT&CK Enterprise techniques
 | T1003 | OS Credential Dumping | No credential dumping tools or artifacts found |
 
 ### Outcome
-Evidence-supported ATT&CK mapping completed. See [MITRE_MAPPING.md](MITRE_MAPPING.md) for full documentation.
+Evidence-supported ATT&CK mapping completed. See [mitre_mapping.md](mitre_mapping.md) for full documentation.
 
 ---
 
