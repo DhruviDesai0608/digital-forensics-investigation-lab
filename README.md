@@ -132,7 +132,7 @@ Evidence Acquisition → Integrity Verification → Memory Analysis
 → Detection Engineering → IOC Extraction → ATT&CK Mapping → Reporting
 ```
 
-See [METHODOLOGY.md](METHODOLOGY.md) for detailed phase-by-phase documentation.
+See [methodology.md](methodology.md) for detailed phase-by-phase documentation.
 
 ---
 
