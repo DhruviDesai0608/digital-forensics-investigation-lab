@@ -202,7 +202,7 @@ See [methodology.md](methodology.md) for detailed phase-by-phase documentation.
 | Domain | `www.python.org` | Download artifact — Autopsy |
 | Process | `mdd_1.3.exe` (PID 3336) | Memory acquisition utility |
 
-See [IOC_WORKSHEET.md](IOC_WORKSHEET.md) for the complete IOC documentation.
+See [ioc_worksheet.md](ioc_worksheet.md) for the complete IOC documentation.
 
 ---
 
@@ -215,7 +215,7 @@ See [IOC_WORKSHEET.md](IOC_WORKSHEET.md) for the complete IOC documentation.
 | T1204.002 | User Execution | Web download artifacts in Autopsy |
 | T1027 | Obfuscated Files or Information | Entropy 7.327 on analyzed executable |
 
-See [MITRE_MAPPING.md](MITRE_MAPPING.md) for complete mapping with evidence citations.
+See [mitre_mapping.md](mitre_mapping.md) for complete mapping with evidence citations.
 
 ---
 
@@ -223,7 +223,7 @@ See [MITRE_MAPPING.md](MITRE_MAPPING.md) for complete mapping with evidence cita
 
 A custom YARA detection rule (`LAB001_Malware_Detection`) was developed to demonstrate signature-based detection engineering. The rule identifies PE executables containing strings recovered during static analysis.
 
-See [YARA_RULE.md](YARA_RULE.md) for the complete rule and documentation.
+See [yara-rule.md](yara-rule.md) for the complete rule and documentation.
 
 ---
 
@@ -310,7 +310,7 @@ See [YARA_RULE.md](YARA_RULE.md) for the complete rule and documentation.
 - **Documentation matters** — Thorough screenshot capture and note-taking directly enabled professional report production
 - **Adaptability is a professional skill** — Adjusting scope due to hardware constraints while maintaining forensic accuracy reflects real-world investigative practice
 
-See [LESSONS_LEARNED.md](LESSONS_LEARNED.md) for the full reflection.
+See [lessons-learned.md](lessons-learned.md) for the full reflection.
 
 ---
 
@@ -320,12 +320,12 @@ See [LESSONS_LEARNED.md](LESSONS_LEARNED.md) for the full reflection.
 Digital Forensics Investigation Lab/
 │
 ├── README.md                    ← You are here
-├── PROJECT-NOTES.md          ← Background, goals, dataset, results
-├── METHODOLOGY.md               ← Phase-by-phase investigation workflow
-├── LESSONS-LEARNED.md           ← Technical and professional reflections
-├── IOC_WORKSHEET.md             ← All extracted Indicators of Compromise
-├── MITRE_MAPPING.md             ← ATT&CK technique mapping with evidence
-├── YARA_RULE.md                 ← Custom detection rule and documentation
+├── project-notes.md          ← Background, goals, dataset, results
+├── methodology.md               ← Phase-by-phase investigation workflow
+├── lessons-learned.md           ← Technical and professional reflections
+├── ioc_worksheet.md             ← All extracted Indicators of Compromise
+├── mitre_mapping.md             ← ATT&CK technique mapping with evidence
+├── yara-rule.md                 ← Custom detection rule and documentation
 │
 ├── report/
 │   └── LAB-2024-001_DFIR_Report.docx   ← Formal investigation report
@@ -367,4 +367,4 @@ This project was conducted for educational purposes using publicly available for
 
 ---
 
-*Analyst: Dhruvi Desai | Case: LAB-2024-001 | Completed: May 2026*
+*Analyst: Dhruvi Desai | Case: LAB-2024-001 | Completed: May 2026*
